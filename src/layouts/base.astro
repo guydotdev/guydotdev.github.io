@@ -1,4 +1,7 @@
 ---
+import '../styles/base.css'
+
+import Navigation from '../components/navigation.astro'
 import Header from '../components/header.astro'
 import Footer from '../components/footer.astro'
 
@@ -13,11 +16,11 @@ const { title } = Astro.props
     <title>{title}</title>
   </head>
 
-  <body class="flex flex-col items-center container mx-auto">
+  <body class="flex flex-col items-center container max-w-full mx-auto bg-not-white">
+    <Navigation />
     <Header />
     <main>
       <slot />
     </main>
-    <Footer />
   </body>
 </html>
