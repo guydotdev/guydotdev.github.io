@@ -6,8 +6,10 @@ export default {
   theme: {
     extend: {
       fontFamily: {
+        serif: ['"Arvo"', ...defaultTheme.fontFamily.serif],
         sans: ['"Raleway"', ...defaultTheme.fontFamily.sans],
-        mono: ['"Fira Code"', ...defaultTheme.fontFamily.mono]
+        mono: ['"Fira Code"', ...defaultTheme.fontFamily.mono],
+        script: ['"Edu VIC WA NT Beginner"']
       },
       colors: {
         'royse-red': '#a52a2a',
