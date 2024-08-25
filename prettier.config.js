@@ -4,7 +4,7 @@ export default {
   trailingComma: 'none',
   bracketSpacing: true,
   arrowParens: 'avoid',
-  printWidth: 120,
+  printWidth: 80,
   tabWidth: 2,
   useTabs: false,
   plugins: ['prettier-plugin-astro'],
