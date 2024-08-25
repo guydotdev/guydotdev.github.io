@@ -1,8 +1,62 @@
 ---
 import Base from '../layouts/base.astro'
-import About from '../components/about.astro'
+import HomeSection from '../components/home-section.astro'
 ---
 
 <Base title="Home">
-  <About />
+  <HomeSection
+    title="Who is this Guy?"
+    imageUrl="/images/guy-royse.jpg"
+    imageAltText="Profile picture of Guy Royse"
+    url="/about"
+  >
+    <p class="text-lg">
+      Greetings humans. My name is Guy. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac tortor
+      convallis, cursus mi et, tempus purus. Quisque vitae erat accumsan arcu tristique finibus eu non sem. Curabitur a
+      sapien dictum ligula malesuada condimentum. Aliquam malesuada a dui vitae porttitor. Aliquam pharetra feugiat nisi
+      quis varius. Aliquam venenatis tincidunt nisl eget tincidunt. Mauris ut risus lectus.
+    </p>
+  </HomeSection>
+
+  <HomeSection
+    title="The Guy Wire"
+    imageUrl="/images/guy-royse.jpg"
+    imageAltText="Guy Royse writing on a computer"
+    url="/blog"
+  >
+    <p class="text-lg">
+      Cras tellus urna, consectetur in fermentum a, tincidunt ac diam. Nullam erat diam, vehicula quis ipsum sodales,
+      euismod aliquet dui. Sed eu eros in nibh varius lobortis. Morbi dolor nulla, malesuada eget laoreet sed, ultricies
+      eget purus. Mauris nec ultricies tellus. Praesent tempor urna hendrerit dolor varius consequat. Curabitur egestas
+      risus leo, id ultricies est facilisis eget.
+    </p>
+  </HomeSection>
+
+  <HomeSection
+    title="Renaissance Guy"
+    imageUrl="/images/keeper-of-the-forest-code.jpg"
+    imageAltText="Fantasy version of Guy Royse"
+    url="/renaissance-guy"
+  >
+    <p class="text-lg">
+      Cras tellus urna, consectetur in fermentum a, tincidunt ac diam. Nullam erat diam, vehicula quis ipsum sodales,
+      euismod aliquet dui. Sed eu eros in nibh varius lobortis. Morbi dolor nulla, malesuada eget laoreet sed, ultricies
+      eget purus. Mauris nec ultricies tellus. Praesent tempor urna hendrerit dolor varius consequat. Curabitur egestas
+      risus leo, id ultricies est facilisis eget.
+    </p>
+  </HomeSection>
+
+  <HomeSection
+    title="W8GUY"
+    imageUrl="/images/keeper-of-the-forest-code.jpg"
+    imageAltText="Guy Royse on the radio"
+    url="/w8guy"
+  >
+    <p class="text-lg">
+      Cras tellus urna, consectetur in fermentum a, tincidunt ac diam. Nullam erat diam, vehicula quis ipsum sodales,
+      euismod aliquet dui. Sed eu eros in nibh varius lobortis. Morbi dolor nulla, malesuada eget laoreet sed, ultricies
+      eget purus. Mauris nec ultricies tellus. Praesent tempor urna hendrerit dolor varius consequat. Curabitur egestas
+      risus leo, id ultricies est facilisis eget.
+    </p>
+  </HomeSection>
 </Base>

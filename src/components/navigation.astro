@@ -1,20 +1,22 @@
 ---
-const liClass = 'flex-shrink text-center px-6'
+const liClass = 'flex-shrink text-center pr-6 hover:text-programer-peach transition-colors duration-300 ease-in-out'
 ---
 
-<nav class="container max-w-full bg-royse-red text-not-white p-4 font-extrabold font-sans text-xl">
-  <ul class="flex flex-row">
+<nav class="container max-w-full bg-royse-red text-not-white pl-8 p-6 font-extrabold font-sans tracking-wider">
+  <ul class="flex flex-row align-middle">
     <li class={liClass}><a href="/">Home</a></li>
-    <li class={liClass}><a href="/blog">Blog</a></li>
-    <li class={liClass}><a href="/guy-wired">Guywired</a></li>
+    <li class={liClass}><a href="/about">About</a></li>
+    <li class={liClass}><a href="/blog">The Guy Wire</a></li>
     <li class={liClass}><a href="/renaissance-guy">Renaissance Guy</a></li>
     <li class={liClass}><a href="/w8guy">W8GUY</a></li>
-    <li class={liClass}><a href="/about">About</a></li>
-    <li class="flex-grow text-right px-4 flex flex-row-reverse">
-      <a href="https://x.com/guyroyse" class="px-1">
+    <li class="flex-grow text-right flex flex-row-reverse">
+      <a href="https://www.youtube.com/@guyroyse" class="pl-2 pr-1">
+        <img src="/images/youtube-logo.svg" class="size-6" />
+      </a>
+      <a href="https://x.com/guyroyse" class="pl-2 pr-1">
         <img src="/images/x-logo.svg" class="size-6" />
       </a>
-      <a href="https://github.com/guyroyse/" class="px-1">
+      <a href="https://github.com/guyroyse/" class="pl-2 pr-1">
         <img src="/images/github-logo.svg" class="size-6" />
       </a>
     </li>

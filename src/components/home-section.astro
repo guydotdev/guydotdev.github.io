@@ -1,0 +1,17 @@
+---
+const { imageUrl, imageAltText, title, url } = Astro.props
+---
+
+<section class="flex flex-row items-center px-48 my-12">
+  <a href={url} class="flex-shrink-0">
+    <img src={imageUrl} alt={imageAltText} class="rounded-full size-48 border-2 border-royse-red" />
+  </a>
+  <div class="px-8 align-middle">
+    <a href={url}>
+      <h1 class="font-serif text-xl pb-2 hover:text-programer-peach transition-colors duration-300 ease-in-out">
+        {title}
+      </h1>
+    </a>
+    <slot />
+  </div>
+</section>
