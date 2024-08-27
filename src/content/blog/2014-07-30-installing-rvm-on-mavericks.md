@@ -1,7 +1,6 @@
 ---
-layout: post
-title:  "Installing RVM on Mavericks"
-date:   2014-07-30 16:22:00
+title: 'Installing RVM on Mavericks'
+date: 2014-07-30
 ---
 
 I find myself back in ruby land for a bit and it was time to help some of my
@@ -46,7 +45,7 @@ I put them in .bashrc but you might put them in .bash_profile. Just make sure
 they are the last thing to execute. Remember. Old lady.
 
 {% highlight bash %}
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
+[[-s "$HOME/.rvm/scripts/rvm"]] && source "$HOME/.rvm/scripts/rvm"
 PATH=$PATH:$HOME/.rvm/bin
 {% endhighlight %}
 

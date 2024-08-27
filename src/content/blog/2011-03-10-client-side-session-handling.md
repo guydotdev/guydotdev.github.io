@@ -1,7 +1,6 @@
 ---
-layout: post
-title:  "Client-Side Session Handling"
-date:   2011-03-10 11:01:00
+title: 'Client-Side Session Handling'
+date: 2011-03-10
 ---
 
 OK. Let's say you've got some big, bulky, enterprisey application. This
@@ -33,14 +32,14 @@ of code and import the .js file in all HTML pages (i.e. each portlet, tab, and
 the outer page)
 
 {% highlight javascript %}
-var session  = session || parent.session || {};
+var session = session || parent.session || {};
 {% endhighlight %}
 
 This code is simple and complex. Make sense of that! It assigns session if it
 hasn't been assigned yet. Since the outer page loads first, it gets defined
 there initially because session doesn't exist, and parent.session doesn't
 exist. All of the iframes then evaluate this same code and session doesn't
-exists but parent.session does. And, just in case someone *has* defined this
+exists but parent.session does. And, just in case someone _has_ defined this
 already we'll always assign session to session if it exists.
 
 To use the code simply modify the session object. For example:
@@ -57,15 +56,15 @@ through the defined session object. Here's the code:
 
 {% highlight javascript %}
 var session = session || parent.session || (function() {
-  var sessionValues = {};
-  return {
-    setFoo : function(value) {
-      sessionValues.foo = value;
-    },
-    getFoo : function() {
-      return sessionValues.foo;
-    }
-  };
+var sessionValues = {};
+return {
+setFoo : function(value) {
+sessionValues.foo = value;
+},
+getFoo : function() {
+return sessionValues.foo;
+}
+};
 })();
 {% endhighlight %}
 

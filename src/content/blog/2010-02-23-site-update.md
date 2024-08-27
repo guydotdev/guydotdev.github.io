@@ -1,7 +1,6 @@
 ---
-layout: post
-title:  "Site Update"
-date:   2010-02-23 22:58:00
+title: 'Site Update'
+date: 2010-02-23
 ---
 
 When I initially launched GuyRoyse.com I vacillated about the content I was

@@ -1,7 +1,6 @@
 ---
-layout: post
-title:  "Fun With Windows"
-date:   2011-02-03 23:34:00
+title: 'Fun With Windows'
+date: 2011-02-03
 ---
 
 OK. Just spent 3 hours of my life that I will never get back trying to

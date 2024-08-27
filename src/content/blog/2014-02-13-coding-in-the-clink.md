@@ -1,7 +1,6 @@
 ---
-layout: post
-title:  "Coding in the Clink"
-date:   2014-02-13 21:22:00
+title: 'Coding in the Clink'
+date: 2014-02-13
 ---
 
 One of the people I have the distinct pleasure of working with at
@@ -14,7 +13,7 @@ And every Tuesday evening Dan goes to prison.
 No, he's not on work release. He's there to teach about a dozen inmates how to
 code. In all fairness, Dan isn't actually teaching them to code, they are doing
 that themselves. However, he is there to provide direction, experience, and
-wisdom.  He is there to provide the perspective of the outside as it relates to
+wisdom. He is there to provide the perspective of the outside as it relates to
 coding, to help give them a skill that they can use if and when they get out,
 and -- I think -- more then anything to provide them some hope.
 

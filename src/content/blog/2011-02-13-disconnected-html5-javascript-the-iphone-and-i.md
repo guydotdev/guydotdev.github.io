@@ -1,7 +1,6 @@
 ---
-layout: post
-title:  "Disconnected HTML5, JavaScript, the iPhone & I"
-date:   2011-02-23 23:12:00
+title: 'Disconnected HTML5, JavaScript, the iPhone & I'
+date: 2011-02-23
 ---
 
 I've been working on a simple test case for a disconnected HTML5 application
@@ -53,6 +52,7 @@ to cache and serve up when there isn't a network connection.
 So, simply add something like this to your HTML file.
 
 {% highlight html %}
+
 <html manifest="cache.manifest">
 {% endhighlight %}
 
@@ -74,7 +74,7 @@ It simple contains the words CACHE MANIFEST at the top and lists all the files
 needed by the application.
 
 You might note that I did not include the _index.html_ and you would be
-correct.  This is because the browser will assume that the file you loaded in
+correct. This is because the browser will assume that the file you loaded in
 the initial request is part of the _cache.manifest_. No need to specify.
 However, if you have several HTML files, you will need to specify them all in
 your _cache.manifest_ as there is no way to know which file you entered the
@@ -112,4 +112,3 @@ Now go out and write me a game or something.
 
 Also, for more information on HTML5 and disconnected applications check out
 [this fine website](http://diveintohtml5.info/offline.html).
-

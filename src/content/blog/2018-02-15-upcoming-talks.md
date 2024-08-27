@@ -1,7 +1,7 @@
 ---
-layout: post
-title:  "A Busy Week"
-date:   2018-02-15 12:52:00
+title: 'A Busy Week'
+date: 2018-02-15
+slug: upcoming-talks
 ---
 
 Looks like I'll be busy next week. Monday, I'll be speaking at the [Columbus Ruby Brigade](http://columbusrb.com/). Wednesday, the [Columbus JavaScript Usergroup](http://columbusjs.org/02-21-2018/guy-royse-machine-learning-for-fun.html). And Thursday, I present at the [Central Ohio .NET Developers Group](http://condg.org/2018/02/15/february-2018-machine-learning-for-fun/).

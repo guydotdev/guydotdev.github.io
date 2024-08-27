@@ -1,7 +1,6 @@
 ---
-layout: post
-title:  "Prairie.Code() 2016 - Des Moines"
-date:   2016-08-08 22:12:00
+title: 'Prairie.Code() 2016 - Des Moines'
+date: 2016-08-08
 ---
 
 I have been selected to present [jQuery & 10,000 Global Functions](http://www.slideshare.net/GuyRoyse) at

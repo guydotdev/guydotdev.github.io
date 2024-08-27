@@ -1,7 +1,6 @@
 ---
-layout: post
-title:  "The Rules of Code Club"
-date:   2010-09-14 13:26:00
+title: 'The Rules of Code Club'
+date: 2010-09-14
 ---
 
 I hereby establish the rules of Code Club.
@@ -16,4 +15,3 @@ I hereby establish the rules of Code Club.
 8. If this is your first time at Code Club, you have to code
 
 Carry on.
-

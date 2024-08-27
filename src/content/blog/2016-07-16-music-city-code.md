@@ -1,7 +1,6 @@
 ---
-layout: post
-title:  "Music City Code 2016 - Nashville"
-date:   2016-07-16 07:55:00
+title: 'Music City Code 2016 - Nashville'
+date: 2016-07-16
 ---
 
 [George Walters](https://twitter.com/walterg2) and I will once again be

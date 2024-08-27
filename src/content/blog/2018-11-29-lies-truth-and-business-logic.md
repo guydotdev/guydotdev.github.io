@@ -1,7 +1,7 @@
 ---
-layout: post
-title:  "Machine Learning for Developers: Lies, Truth, and Business Logic"
-date:   2018-11-29 12:37:00
+title: 'Machine Learning for Developers: Lies, Truth, and Business Logic'
+date: 2018-11-29
+slug: lies-truth-and-business-logic
 ---
 
 When I first heard about machine learning, my reaction was pretty much "meh". I didn't care. I didn't see it affecting me or my job all that much. I was busy writing software. Software which was primarily focused on pulling data from some remote source, applying rules to that data, and putting it on a screen. Machine learning wasn't going to change that.
@@ -24,7 +24,7 @@ At this point, there is an important realization to make. All of these approache
 
 Oh. Hello there, machine learning.
 
-Machine learning is like a rules engine on steroids. It allows us to create rules that encapsulate complex patterns that would otherwise be nigh impossible. But instead of us using it to define our rules, it *finds* the rules and then encodes them for us. All we have to provide it are examples and correct answers (i.e. features and labels) and it will create an abstraction we can use to exercise those rules (i.e. a model).
+Machine learning is like a rules engine on steroids. It allows us to create rules that encapsulate complex patterns that would otherwise be nigh impossible. But instead of us using it to define our rules, it _finds_ the rules and then encodes them for us. All we have to provide it are examples and correct answers (i.e. features and labels) and it will create an abstraction we can use to exercise those rules (i.e. a model).
 
 That's a pretty neat trick!
 
@@ -34,4 +34,4 @@ Machine learning, it turns out, doesn't change what I'm doing. I'm still writing
 
 And that's not scary. That's empowering!
 
-*This post originally appeared on [DataRobot.com](https://blog.datarobot.com/machine-learning-for-developers-lies-truth-and-business-logic).*
+_This post originally appeared on [DataRobot.com](https://blog.datarobot.com/machine-learning-for-developers-lies-truth-and-business-logic)._

@@ -1,7 +1,6 @@
 ---
-layout: post
-title:  "jQuery & 10,000 Global Functions"
-date:   2016-06-23 21:27:00
+title: 'jQuery & 10,000 Global Functions'
+date: 2016-06-23
 ---
 
 I spoke at [StirTrek](http://stirtrek.com/) a few weeks ago and they did me the service of recording my talk. It is
