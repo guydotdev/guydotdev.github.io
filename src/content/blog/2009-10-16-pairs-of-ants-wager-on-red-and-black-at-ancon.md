@@ -1,7 +1,7 @@
 ---
-layout: post
-title:  "Pairs of Ants Wager on Red and Black at AnCon"
-date:   2009-10-16 12:12:00
+title: 'Pairs of Ants Wager on Red and Black at AnCon'
+date: 2009-10-16
+slug: pairs-of-ants-wager-on-red-and-black-at-ancon
 ---
 
 Saw this update a while ago from Super Dave, a fellow gamer and geek from my
@@ -9,7 +9,7 @@ college days, and thought I would share.
 
 Super Dave runs a regional gaming convention in North Eastern Ohio called
 [AnCon](http://www.anothergamecon.com/). It is with great shame that I share
-with you that I have never attended.  But, word on the street is that it's a
+with you that I have never attended. But, word on the street is that it's a
 lot of fun. I'd like to try to get up there in 2010. It runs from May 21
 through May 23 next year. That's a Friday, Saturday, Sunday so getting off of
 work should be easy for all of us corporate wage slaves. The price is only $25
@@ -33,4 +33,3 @@ Black](http://www.anothergamecon.com/Downloads/Ants_Red_vs_Black.pdf), a board
 game which looks a little more involved than what might interest my wife. Which
 means it's right up my alley! I haven't play either of them yet--hell, I've
 hardly had time to update the blog--but I plan to.
-

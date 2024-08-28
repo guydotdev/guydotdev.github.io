@@ -1,6 +1,7 @@
 ---
 title: 'Eat Sleep Code'
 date: 2016-09-23
+slug: eat-sleep-code
 ---
 
 While at [Music City Code](http://www.musiccitycode.com/) in Nashville last month I had the privilege of recording an

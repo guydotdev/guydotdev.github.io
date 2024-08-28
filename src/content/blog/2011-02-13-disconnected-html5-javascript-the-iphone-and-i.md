@@ -1,6 +1,7 @@
 ---
 title: 'Disconnected HTML5, JavaScript, the iPhone & I'
 date: 2011-02-23
+slug: disconnected-html5-javascript-the-iphone-and-i
 ---
 
 I've been working on a simple test case for a disconnected HTML5 application

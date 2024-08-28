@@ -1,6 +1,7 @@
 ---
 title: 'Music City Code 2016 - Nashville'
 date: 2016-07-16
+slug: music-city-code
 ---
 
 [George Walters](https://twitter.com/walterg2) and I will once again be

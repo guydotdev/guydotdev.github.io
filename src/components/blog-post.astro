@@ -1,0 +1,38 @@
+---
+import { getEntry } from 'astro:content'
+
+const { slug } = Astro.props
+
+const entry = await getEntry('blog', slug)
+const title = entry.data.title
+
+const dt = entry.data.date
+
+const year = dt.getUTCFullYear().toString()
+const month = (dt.getUTCMonth() + 1).toString().padStart(2, '0')
+const day = dt.getUTCDate().toString().padStart(2, '0')
+const date = `${year}-${month}-${day}`
+
+const monthString = Intl.DateTimeFormat('en-US', { month: 'long' }).format(dt)
+const dayString = Intl.DateTimeFormat('en-US', { day: 'numeric' }).format(dt)
+const yearString = Intl.DateTimeFormat('en-US', { year: 'numeric' }).format(dt)
+const dateString = `${monthString} ${dayString}, ${yearString}`
+
+const permalink = `/${year}/${month}/${day}/${slug}`
+
+const { Content } = await entry.render()
+---
+
+<article class="flex flex-col px-96">
+  <a href={permalink}>
+    <h1
+      class="font-serif text-2xl pb-4 hover:text-programer-peach transition-colors duration-300 ease-in-out"
+    >
+      {title}
+    </h1>
+  </a>
+  <Content />
+  <span class="pt-8 text-programer-peach text-right font-semibold text-xl">
+    — <time datetime={date}>{dateString}</time>
+  </span>
+</article>

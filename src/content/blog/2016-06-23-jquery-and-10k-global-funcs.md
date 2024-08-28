@@ -1,6 +1,7 @@
 ---
 title: 'jQuery & 10,000 Global Functions'
 date: 2016-06-23
+slug: jquery-and-10k-global-funcs
 ---
 
 I spoke at [StirTrek](http://stirtrek.com/) a few weeks ago and they did me the service of recording my talk. It is

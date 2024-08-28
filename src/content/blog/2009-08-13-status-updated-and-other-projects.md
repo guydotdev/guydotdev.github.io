@@ -1,7 +1,7 @@
 ---
-layout: post
-title:  "Status Updated and Other Projects"
-date:   2009-08-13 23:29:00
+title: 'Status Updated and Other Projects'
+date: 2009-08-13
+slug: status-updated-and-other-projects
 ---
 
 So I've been a little lax in reporting in of late. My family and I went on
@@ -33,7 +33,7 @@ yet--actually there's nothing--but Benjamin is working on that.
 Our first game is a stock trading game called Corporate Raiders. If you want to
 check out what the game has so far you can visit it at
 [corporateraiders.hardboiledgeek.com](http://http://hardboiledgeek.com/). The
-game is still pretty young right now.  We just have the mechanism to display
+game is still pretty young right now. We just have the mechanism to display
 the status of the market. Our next step is to actually make the market move.
 Then we can start adding features to buy and sell and start adding players.
 
@@ -50,4 +50,3 @@ probably see that I've been a busy little beaver. And, I'm have a lot of fun
 making all this content, even if there isn't much for you to see at the moment.
 But when it comes, all these irons I have in the fire will be done at once. And
 won't that be fun!
-

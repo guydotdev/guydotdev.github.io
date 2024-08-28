@@ -1,7 +1,7 @@
 ---
-layout: post
-title:  "Coming Soon: Zombie Stomp!"
-date:   2009-07-02 15:07:00
+title: 'Coming Soon: Zombie Stomp!'
+date: 2009-07-02
+slug: coming-soon-zombie-stomp
 ---
 
 "Hey! Hey! Do the Zombie Stomp!"
@@ -60,4 +60,3 @@ In fact, why don't you play some games on a chess board—or some other board of
 your devising—with your buds and tell me about it in the comments. I'll
 incorporate your feedback into the game, maybe include some of the boards, and
 give props to everyone that helped.
-

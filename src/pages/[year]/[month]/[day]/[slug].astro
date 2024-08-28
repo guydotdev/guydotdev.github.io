@@ -1,5 +1,6 @@
 ---
 import Base from '../../../../layouts/base.astro'
+import BlogPost from '../../../../components/blog-post.astro'
 
 import { getCollection } from 'astro:content'
 
@@ -7,9 +8,9 @@ export async function getStaticPaths() {
   const blogEntries = await getCollection('blog')
   const paths = blogEntries.map(entry => {
     const dt = entry.data.date
-    const year = dt.getFullYear().toString()
-    const month = (dt.getMonth() + 1).toString().padStart(2, '0')
-    const day = (dt.getDate() + 1).toString().padStart(2, '0')
+    const year = dt.getUTCFullYear().toString()
+    const month = (dt.getUTCMonth() + 1).toString().padStart(2, '0')
+    const day = dt.getUTCDate().toString().padStart(2, '0')
     const slug = entry.slug
 
     return {
@@ -21,9 +22,8 @@ export async function getStaticPaths() {
 }
 
 const { entry } = Astro.props
-const { Content } = await entry.render()
 ---
 
-<Base title="The Guy Wire">
-  <Content />
+<Base title={`The Guy Wire - ${entry.data.title}`}>
+  <BlogPost slug={entry.slug} />
 </Base>

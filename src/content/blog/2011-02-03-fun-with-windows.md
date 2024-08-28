@@ -1,6 +1,7 @@
 ---
 title: 'Fun With Windows'
 date: 2011-02-03
+slug: fun-with-windows
 ---
 
 OK. Just spent 3 hours of my life that I will never get back trying to

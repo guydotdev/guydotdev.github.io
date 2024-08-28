@@ -1,6 +1,7 @@
 ---
 title: 'Site Update'
 date: 2010-02-23
+slug: site-update
 ---
 
 When I initially launched GuyRoyse.com I vacillated about the content I was

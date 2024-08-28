@@ -1,6 +1,7 @@
 ---
 title: 'Client-Side Session Handling'
 date: 2011-03-10
+slug: client-side-session-handling
 ---
 
 OK. Let's say you've got some big, bulky, enterprisey application. This

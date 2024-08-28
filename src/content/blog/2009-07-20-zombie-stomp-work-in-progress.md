@@ -1,7 +1,7 @@
 ---
-layout: post
-title:  "Zombie Stomp! Work in Progress"
-date:   2009-07-20 00:18:00
+title: 'Zombie Stomp! Work in Progress'
+date: 2009-07-20
+slug: zombie-stomp-work-in-progress
 ---
 
 I've been working hard on the Zombie Stomp! game-board and though I would share

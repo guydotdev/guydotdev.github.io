@@ -1,7 +1,7 @@
 ---
-layout: post
-title:  "Zombie Stomp! Work in Progress (Part 2)"
-date:   2009-08-27 23:26:00
+title: 'Zombie Stomp! Work in Progress (Part 2)'
+date: 2009-08-27
+slug: zombie-stomp-work-in-progress-part-2
 ---
 
 I thought that it might be a good idea to update you on the progress that has

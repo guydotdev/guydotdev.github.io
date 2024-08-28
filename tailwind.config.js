@@ -1,4 +1,5 @@
 const defaultTheme = require('tailwindcss/defaultTheme')
+const typography = require('@tailwindcss/typography')
 
 export default {
   content: ['./src/**/*.{astro,html,js,md,ts}'],
@@ -20,5 +21,5 @@ export default {
     }
   },
 
-  plugins: []
+  plugins: [typography]
 }

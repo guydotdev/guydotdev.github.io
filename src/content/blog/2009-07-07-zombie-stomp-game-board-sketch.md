@@ -1,7 +1,7 @@
 ---
-layout: post
-title:  "Zombie Stomp! Game Board Sketch"
-date:   2009-07-07 23:39:00
+title: 'Zombie Stomp! Game Board Sketch'
+date: 2009-07-07
+slug: zombie-stomp-game-board-sketch
 ---
 
 So, as planned, here is the sketch for the Zombie Stomp! Gameboard.

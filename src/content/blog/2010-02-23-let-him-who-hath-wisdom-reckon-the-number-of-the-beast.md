@@ -1,7 +1,7 @@
 ---
-layout: post
-title:  "Let Him Who Hath Wisdom Reckon the Number of the Beast"
-date:   2010-02-23 23:12:00
+title: 'Let Him Who Hath Wisdom Reckon the Number of the Beast'
+date: 2010-02-23
+slug: let-him-who-hath-wisdom-reckon-the-number-of-the-beast
 ---
 
 My latest project is something that I have written three times: The Antichrist
@@ -47,4 +47,3 @@ application for me that I use to learn new technology. But, it's also fun and I
 hope that you can enjoy it as well.
 
 I'll post the link to the new version once it is somewhat available.
-

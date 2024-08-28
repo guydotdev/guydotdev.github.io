@@ -1,6 +1,7 @@
 ---
 title: 'Coding in the Clink'
 date: 2014-02-13
+slug: coding-in-the-clink
 ---
 
 One of the people I have the distinct pleasure of working with at

@@ -1,6 +1,7 @@
 ---
 title: 'Installing RVM on Mavericks'
 date: 2014-07-30
+slug: installing-rvm-on-mavericks
 ---
 
 I find myself back in ruby land for a bit and it was time to help some of my

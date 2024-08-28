@@ -1,6 +1,7 @@
 ---
 title: 'The Rules of Code Club'
 date: 2010-09-14
+slug: the-rules-of-code-club
 ---
 
 I hereby establish the rules of Code Club.
