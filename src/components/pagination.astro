@@ -1,0 +1,57 @@
+---
+const { currentPage, pageCount } = Astro.props
+
+const prevPage = currentPage - 1
+const nextPage = currentPage + 1
+const hasPrevPage = prevPage > 0
+const hasNextPage = nextPage <= pageCount
+
+const linkClass =
+  'px-4 text-programer-peach hover:text-royse-red-light transition-colors duration-300 ease-in-out'
+const currentClass = 'px-4 text-royse-red-light'
+
+const listItems = []
+if (hasPrevPage) {
+  listItems.push({
+    text: '« Previous',
+    link: `/blog/${prevPage === 1 ? '' : prevPage}`,
+    clazz: linkClass
+  })
+}
+
+for (let page = 1; page <= pageCount; page++) {
+  if (page === currentPage) {
+    listItems.push({
+      text: page,
+      link: '',
+      clazz: currentClass
+    })
+  } else {
+    listItems.push({
+      text: page,
+      link: `/blog/${page === 1 ? '' : page}`,
+      clazz: linkClass
+    })
+  }
+}
+
+if (hasNextPage) {
+  listItems.push({
+    text: 'Next »',
+    link: `/blog/${nextPage}`,
+    clazz: linkClass
+  })
+}
+---
+
+<nav class="mx-48 px-96 py-8 font-serif text-lg">
+  <ul class="flex flow-row justify-center items-center">
+    {
+      listItems.map(item => (
+        <li class={item.clazz}>
+          {item.link === '' ? item.text : <a href={item.link}>{item.text}</a>}
+        </li>
+      ))
+    }
+  </ul>
+</nav>

@@ -1,0 +1,26 @@
+---
+import Blog from './index.astro'
+
+import { getCollection } from 'astro:content'
+
+export async function getStaticPaths() {
+  /* duplicated code from index.astro */
+  const pageSize = 5
+  const allEntries = await getCollection('blog')
+  const entryCount = allEntries.length
+  const pageCount = Math.ceil(entryCount / pageSize)
+
+  /* generate paths for all pages except the first */
+  return Array.from({ length: pageCount - 1 }).map((_, i) => {
+    const page = i + 2
+    return {
+      params: { page },
+      props: { page }
+    }
+  })
+}
+
+const { page } = Astro.params
+---
+
+<Blog page={page} />
