@@ -32,9 +32,9 @@ my session state in a JavaScript object. I can define this object with one line
 of code and import the .js file in all HTML pages (i.e. each portlet, tab, and
 the outer page)
 
-{% highlight javascript %}
-var session = session || parent.session || {};
-{% endhighlight %}
+```javascript
+var session = session || parent.session || {}
+```
 
 This code is simple and complex. Make sense of that! It assigns session if it
 hasn't been assigned yet. Since the outer page loads first, it gets defined
@@ -45,9 +45,9 @@ already we'll always assign session to session if it exists.
 
 To use the code simply modify the session object. For example:
 
-{% highlight javascript %}
+```javascript
 session.foo = 'bar'
-{% endhighlight %}
+```
 
 Now I like to know what I've put in session so that I have a feel for how big
 it is. So I actually use a slightly more complex pattern. I define a session
@@ -55,25 +55,28 @@ object with explicit accessors so the code tells me what's stored there. And I
 use a closure so no one can mess with my internal state and they have to go
 through the defined session object. Here's the code:
 
-{% highlight javascript %}
-var session = session || parent.session || (function() {
-var sessionValues = {};
-return {
-setFoo : function(value) {
-sessionValues.foo = value;
-},
-getFoo : function() {
-return sessionValues.foo;
-}
-};
-})();
-{% endhighlight %}
+```javascript
+var session =
+  session ||
+  parent.session ||
+  (function () {
+    var sessionValues = {}
+    return {
+      setFoo: function (value) {
+        sessionValues.foo = value
+      },
+      getFoo: function () {
+        return sessionValues.foo
+      }
+    }
+  })()
+```
 
 In this case, you would use the code like this:
 
-{% highlight javascript %}
+```javascript
 session.setFoo('bar')
-{% endhighlight %}
+```
 
 A little extra code, sure, but I think the value add is worth it.
 

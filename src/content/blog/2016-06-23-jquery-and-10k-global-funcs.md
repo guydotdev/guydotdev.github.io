@@ -10,7 +10,7 @@ entitled _jQuery & 10,000 Global Functions: Working with Legacy JavaScript_ and 
 The talk consists of a discussion on where legacy code comes from, some good strategies for dealing with it, some bad
 strategies to avoid, and lots of specific techniques more specific to JavaScript.
 
-<iframe class="youtube" src="https://www.youtube.com/embed/c7wolG3rAKU?showinfo=0" frameborder="0" allowfullscreen></iframe>
+<iframe class="youtube" src="https://www.youtube.com/embed/c7wolG3rAKU?si=zf3a3mnOyD3_jj3q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 The slides for this talk are on
 [SlideShare](http://www.slideshare.net/GuyRoyse/jquery-10000-global-functions-working-with-legacy-javascript)

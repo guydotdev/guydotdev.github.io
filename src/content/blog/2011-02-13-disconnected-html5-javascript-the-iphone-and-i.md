@@ -21,12 +21,10 @@ The application I developed is not remarkable. In fact, it is a simple math
 problem. Peruse the source if you want details on how it works. The important
 part is that it has the following files:
 
-{% highlight javascript %}
-index.html
-calculator.js
-calculator.css
-jquery.js
-{% endhighlight %}
+- index.html
+- calculator.js
+- calculator.css
+- jquery.js
 
 Just create the files for your application (or copy mine) and make it do what
 it does. I'm assuming you know how to program in JavaScript and HTML.
@@ -52,10 +50,9 @@ to cache and serve up when there isn't a network connection.
 
 So, simply add something like this to your HTML file.
 
-{% highlight html %}
-
-<html manifest="cache.manifest">
-{% endhighlight %}
+```html
+<html manifest="cache.manifest"></html>
+```
 
 This tells your browser to load up the file in the manifest attribute. The
 filename can be anything but I would recommend having it end in .manifest as
@@ -63,13 +60,13 @@ this makes setting up the content type later much easier.
 
 The _cache.manifest_ is simplicity itself:
 
-{% highlight javascript %}
+```
 CACHE MANIFEST
 calculator.js
 calculator.css
 jquery.js
 iphone-icon.png
-{% endhighlight %}
+```
 
 It simple contains the words CACHE MANIFEST at the top and lists all the files
 needed by the application.
@@ -91,9 +88,9 @@ So, you need to add it yourself. If you are using an apache server you can add
 the content type to your _.htaccess_ file. Add the following line and you
 should be golden.
 
-{% highlight javascript %}
+```
 AddType text/cache-manifest .manifest
-{% endhighlight %}
+```
 
 # Step #5: Access the Application from Your iPhone & Troubleshoot
 

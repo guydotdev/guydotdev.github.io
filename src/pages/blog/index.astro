@@ -8,6 +8,5 @@ const entries = (await getCollection('blog')).reverse()
 ---
 
 <Base title="The Guy Wire">
-  <h1>The Guy Wire</h1>
   {entries.map(entry => <BlogPost slug={entry.slug} />)}
 </Base>

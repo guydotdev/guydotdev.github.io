@@ -1,4 +1,5 @@
 const defaultTheme = require('tailwindcss/defaultTheme')
+const aspectRatio = require('@tailwindcss/aspect-ratio')
 
 export default {
   content: ['./src/**/*.{astro,html,js,md,ts}'],
@@ -21,5 +22,5 @@ export default {
     }
   },
 
-  plugins: []
+  plugins: [aspectRatio]
 }

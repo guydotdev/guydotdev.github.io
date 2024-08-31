@@ -6,3 +6,36 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+article h1 {
+  @apply text-xl font-serif font-bold mb-3 text-royse-red-light;
+}
+
+article p {
+  @apply mb-3 text-lg;
+}
+
+article p a {
+  @apply text-royse-red-light hover:underline hover:text-programer-peach transition-colors duration-300 ease-in-out;
+}
+
+article p img {
+  @apply w-full h-auto py-2;
+}
+
+article ul {
+  @apply list-disc list-outside mb-3 ml-10 marker:text-programer-peach text-lg;
+}
+
+article ol {
+  @apply list-decimal list-outside mb-3 ml-10 marker:text-programer-peach text-lg marker:text-xl;
+}
+
+article pre {
+  @apply mb-3 p-2;
+}
+
+article .youtube {
+  aspect-ratio: 16 / 9;
+  @apply w-full h-auto mb-3;
+}

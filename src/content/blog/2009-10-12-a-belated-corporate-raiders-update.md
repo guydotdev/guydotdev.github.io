@@ -23,27 +23,21 @@ Raiders](http://corporateraiders.hardboiledgeek.com/).
 
 If you want to check out the API for yourself you can access it using the following URLs:
 
-{% highlight html %}
-http://corporateraiders.hardboiledgeek.com/api/stock/{symbol}/{format}
-http://corporateraiders.hardboiledgeek.com/api/market/{format}
-{% endhighlight %}
+- http://corporateraiders.hardboiledgeek.com/api/stock/{symbol}/{format}
+- http://corporateraiders.hardboiledgeek.com/api/market/{format}
 
 Just replace _{symbol}_ with the stock symbol you care about. For _{format}_
 enter either _xml_ or _json_. If you don't specify _{format}_, it will default
 to _json_. For example...
 
-{% highlight html %}
-http://corporateraiders.hardboiledgeek.com/api/stock/chch/xml
-{% endhighlight %}
+- http://corporateraiders.hardboiledgeek.com/api/stock/chch/xml
 
 ...will show you the info for [Chthonic Chemicals
 Corporation](http://corporateraiders.hardboiledgeek.com/stock.jsp?stock=CHCH)
 in XML. Either of these urls...
 
-{% highlight html %}
-http://corporateraiders.hardboiledgeek.com/api/stock/chch/json
-http://corporateraiders.hardboiledgeek.com/api/stock/chch
-{% endhighlight %}
+- http://corporateraiders.hardboiledgeek.com/api/stock/chch/json
+- http://corporateraiders.hardboiledgeek.com/api/stock/chch
 
 ...would show you that same info in JSON.
 

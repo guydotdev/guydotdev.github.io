@@ -23,16 +23,16 @@ const permalink = `/${year}/${month}/${day}/${slug}`
 const { Content } = await entry.render()
 ---
 
-<article class="flex flex-col px-96">
+<article class="flex flex-col mx-48 px-96">
   <a href={permalink}>
     <h1
-      class="font-serif text-2xl pb-4 hover:text-programer-peach transition-colors duration-300 ease-in-out"
+      class="font-serif text-2xl pt-6 text-programer-peach hover:text-royse-red-light transition-colors duration-300 ease-in-out"
     >
       {title}
     </h1>
   </a>
   <Content />
-  <span class="pt-8 text-programer-peach text-right font-semibold text-xl">
+  <span class="pb-6 text-royse-red-light text-right font-semibold text-lg">
     — <time datetime={date}>{dateString}</time>
   </span>
 </article>
