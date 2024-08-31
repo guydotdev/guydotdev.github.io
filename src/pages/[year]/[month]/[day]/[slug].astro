@@ -1,24 +1,11 @@
 ---
 import Base from '../../../../layouts/base.astro'
-import BlogPost from '../../../../components/blog-post.astro'
+import BlogPost from '../../../../components/blog/blog-post.astro'
 
-import { getCollection } from 'astro:content'
+import { generatePermalinkRoutes } from '../../../../common/blog'
 
 export async function getStaticPaths() {
-  const blogEntries = await getCollection('blog')
-  const paths = blogEntries.map(entry => {
-    const dt = entry.data.date
-    const year = dt.getUTCFullYear().toString()
-    const month = (dt.getUTCMonth() + 1).toString().padStart(2, '0')
-    const day = dt.getUTCDate().toString().padStart(2, '0')
-    const slug = entry.slug
-
-    return {
-      params: { year, month, day, slug },
-      props: { entry }
-    }
-  })
-  return paths
+  return await generatePermalinkRoutes()
 }
 
 const { entry } = Astro.props

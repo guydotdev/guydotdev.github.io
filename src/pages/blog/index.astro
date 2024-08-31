@@ -1,29 +1,11 @@
 ---
 import Base from '../../layouts/base.astro'
-import BlogPost from '../../components/blog-post.astro'
-import Pagination from '../../components/pagination.astro'
+import BlogPage from '../../components/blog/blog-page.astro'
 
-import { getCollection } from 'astro:content'
-
-/* duplicated code from [page].astro */
-const pageSize = 5
-const allEntries = await getCollection('blog')
-const entryCount = allEntries.length
-const pageCount = Math.ceil(entryCount / pageSize)
-
-/* compute page bounds */
 const page = Astro.params.page ? parseInt(Astro.params.page) : 1
-const start = (page - 1) * pageSize
-const end = page * pageSize
-
-/* generate page title */
 const pageTitle = page === 1 ? 'The Guy Wire' : `The Guy Wire - Page ${page}`
-
-/* get entries for the current page */
-const theseEntries = allEntries.reverse().slice(start, end)
 ---
 
 <Base title={pageTitle}>
-  {theseEntries.map(entry => <BlogPost slug={entry.slug} />)}
-  <Pagination currentPage={page} pageCount={pageCount} />
+  <BlogPage page={page} />
 </Base>

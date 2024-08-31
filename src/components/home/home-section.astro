@@ -1,12 +1,12 @@
 ---
-import RoundImage from './round-image.astro'
+import RoundImage from '../widgets/round-image.astro'
 
 const { imageUrl, imageAltText, title, url } = Astro.props
 ---
 
-<section class="flex flex-row items-start px-96 my-12">
+<section class="flex flex-row items-start my-12">
   <RoundImage imageUrl={imageUrl} altText={imageAltText} link={url} />
-  <div class="px-8 pt-6 align-middle">
+  <div class="px-8 pt-6">
     <a href={url}>
       <h1
         class="font-serif text-xl pb-2 hover:text-programer-peach transition-colors duration-300 ease-in-out"
@@ -14,6 +14,8 @@ const { imageUrl, imageAltText, title, url } = Astro.props
         {title}
       </h1>
     </a>
-    <slot />
+    <p class="text-lg">
+      <slot />
+    </p>
   </div>
 </section>

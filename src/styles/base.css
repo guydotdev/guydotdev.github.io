@@ -7,8 +7,8 @@
 @tailwind components;
 @tailwind utilities;
 
-article h1 {
-  @apply text-xl font-serif font-bold mb-3 text-royse-red-light;
+article > div > h1 {
+  @apply text-lg font-serif mb-3 text-royse-red-light;
 }
 
 article p {

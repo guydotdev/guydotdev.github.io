@@ -1,5 +1,9 @@
 ---
-const { currentPage, pageCount } = Astro.props
+import { getBlogPageCount } from '../../common/blog'
+
+const { currentPage } = Astro.props
+
+const pageCount = await getBlogPageCount()
 
 const prevPage = currentPage - 1
 const nextPage = currentPage + 1

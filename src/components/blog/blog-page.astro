@@ -1,0 +1,12 @@
+---
+import BlogPost from './blog-post.astro'
+import Pagination from './pagination.astro'
+
+import { getBlogPageEntries } from '../../common/blog'
+
+const page = Astro.params.page ? parseInt(Astro.params.page) : 1
+const entries = await getBlogPageEntries(page)
+---
+
+{entries.map(entry => <BlogPost slug={entry.slug} />)}
+<Pagination currentPage={page} />

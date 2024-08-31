@@ -1,7 +1,7 @@
 ---
 import Base from '../layouts/base.astro'
-import HomeSection from '../components/home-section.astro'
-import Link from '../components/link.astro'
+import HomeSection from '../components/home/home-section.astro'
+import Link from '../components/widgets/link.astro'
 ---
 
 <Base title="Home">
@@ -11,12 +11,10 @@ import Link from '../components/link.astro'
     imageAltText="Profile picture of Guy Royse with a long white beard and long, white hair"
     url="/about"
   >
-    <p class="text-lg">
-      Welcome. My name is Guy and, yes, that's my real name. I'm a husband and
-      father of three, a seasoned software developer, a public speaker, and a
-      hard-boiled geek interested in more things than I have time for. I share
-      many of those things right here on this website.
-    </p>
+    Welcome. My name is Guy and, yes, that's my real name. I'm a husband and
+    father of three, a seasoned software developer, a public speaker, and a
+    hard-boiled geek interested in more things than I have time for. I share
+    many of those things right here on this website.
   </HomeSection>
 
   <HomeSection
@@ -25,31 +23,26 @@ import Link from '../components/link.astro'
     imageAltText="A bundle of cables with glowing flecks of light inside"
     url="/blog"
   >
-    <p class="text-lg">
-      This is my blog. Mostly I write about software development and tech
-      topics, but sometimes I'll write about other nerdy topics like ham radio
-      and RPGs—think <em>Dungeons &amp; Dragons</em> not <em
-        >The Legend of Zelda</em
-      >. On rare occasions, I may wax poetic about life, the universe, and
-      everything.
-    </p>
+    This is my blog. Mostly I write about software development and tech topics,
+    but sometimes I'll write about other nerdy topics like ham radio and
+    RPGs—think <em>Dungeons &amp; Dragons</em> not <em>The Legend of Zelda</em>.
+    On rare occasions, I may wax poetic about life, the universe, and
+    everything.
   </HomeSection>
 
   <HomeSection
     title="GuyDotDev"
     imageUrl="/assets/guy-dot-dev.jpg"
     imageAltText="Miniature construction worker and supervisor standing on a circuit board"
-    url="/gu-ydot-dev"
+    url="/guy-dot-dev"
   >
-    <p class="text-lg">
-      I'm a software developer with over 30 years of experience. I've worked in
-      numerous industries using a variety of languages and technologies.
-      Currently, I work for <Link url="https://redis.io">Redis</Link> as a developer
-      advocate. I share my work here, on <Link
-        url="https://github.com/guyroyse/">GitHub</Link
-      >, and on <Link url="https://www.youtube.com/@guyroyse">YouTube</Link
-      >—where I post regular videos.
-    </p>
+    I'm a software developer with over 30 years of experience. I've worked in
+    numerous industries using a variety of languages and technologies.
+    Currently, I work for <Link url="https://redis.io">Redis</Link> as a developer
+    advocate. I share my work here, on <Link url="https://github.com/guyroyse/"
+      >GitHub</Link
+    >, and on <Link url="https://www.youtube.com/@guyroyse">YouTube</Link>—where
+    I post regular videos.
   </HomeSection>
 
   <HomeSection
@@ -58,14 +51,12 @@ import Link from '../components/link.astro'
     imageAltText="Assorted gaming materials on a table including a dungeon map, dice, and a vintage gaming book"
     url="/renaissance-guy"
   >
-    <p class="text-lg">
-      I've been an avid gamer for decades, playing my first game of Dungeons
-      &amp; Dragons sometime in the early 80s. I enjoy all sorts of RPGs—not
-      just D&amp;D. Usually, I'm the gamemaster and I like making scenery to run
-      my games. I share my play materials here and post <Link
-        url="https://www.youtube.com/@renaissanceguy">videos</Link
-      > occasionally.
-    </p>
+    I've been an avid gamer for decades, playing my first game of Dungeons &amp;
+    Dragons sometime in the early 80s. I enjoy all sorts of RPGs—not just
+    D&amp;D. Usually, I'm the gamemaster and I like making scenery to run my
+    games. I share my play materials here and post <Link
+      url="https://www.youtube.com/@renaissanceguy">videos</Link
+    > occasionally.
   </HomeSection>
 
   <HomeSection
@@ -74,12 +65,12 @@ import Link from '../components/link.astro'
     imageAltText="Two nixie tubes displaying the numbers 7 and 3"
     url="/w8guy"
   >
-    <p class="text-lg">
-      I'm an amateur radio operator and who managed to snag the vanity call sign
-      of <Link url="https://www.qrz.com/db/W8GUY">W8GUY</Link>. Ham radio is a
-      fairly new hobby to me and I'm constantly learning and tweaking. There's
-      plenty to learn and tweak. I share what I've learned here and post the
-      occasional <Link url="https://www.youtube.com/@w8guy-radio">video</Link>.
-    </p>
+    I'm an amateur radio operator who managed to snag the vanity call sign of <Link
+      url="https://www.qrz.com/db/W8GUY">W8GUY</Link
+    >. Ham radio is a fairly new hobby to me and I'm constantly learning and
+    tweaking. There's plenty to learn and tweak. I share what I've learned here
+    and post the occasional <Link url="https://www.youtube.com/@w8guy-radio"
+      >video</Link
+    >.
   </HomeSection>
 </Base>

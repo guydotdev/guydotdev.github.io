@@ -1,5 +1,5 @@
 ---
-import RoundImage from './round-image.astro'
+import RoundImage from '../widgets/round-image.astro'
 
 import { getEntry } from 'astro:content'
 
@@ -27,19 +27,19 @@ const permalink = `/${year}/${month}/${day}/${slug}`
 const { Content } = await entry.render()
 ---
 
-<article class="flex flex-row items-start px-96 my-12">
+<article class="flex flex-row items-start my-12">
   <RoundImage imageUrl={image} altText={altText} link={permalink} />
-  <div class="flex flex-col px-8 pt-4">
+  <div class="px-8 pt-4">
     <a href={permalink}>
       <h1
-        class="font-serif text-2xl text-programer-peach hover:text-royse-red-light transition-colors duration-300 ease-in-out"
+        class="font-serif mb-2 text-xl text-programer-peach hover:text-royse-red-light transition-colors duration-300 ease-in-out"
       >
         {title}
       </h1>
     </a>
     <Content />
-    <span class="pb-6 text-royse-red-light text-right font-semibold text-lg">
+    <p class="pb-6 text-royse-red-light text-right font-semibold text-lg">
       — <time datetime={date}>{dateString}</time>
-    </span>
+    </p>
   </div>
 </article>
