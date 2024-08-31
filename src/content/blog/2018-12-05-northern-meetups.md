@@ -1,12 +1,12 @@
 ---
 title: 'Northern Meetups'
 date: 2018-12-05
+image: /images/aaaaaaaaaaaaaaaaaaaaaaa.jpg
+allText: Cars on a wintery highway with a programmable road signs that is full of the letter A
 slug: northern-meetups
 ---
 
 I've got a couple of upcoming meetups in some of the more northerly states in the next week or so. Specifically, Michigan and Minnesota.
-
-![Yo](/images/aaaaaaaaaaaaaaaaaaaaaaa.jpg)
 
 I'll be giving [An Introduction to WebAssembly](https://github.com/guyroyse/intro-to-webassembly) in Ann Arbor, Michigan on _Monday, December 10th_ at [Southeast Michigan JavaScript](https://www.meetup.com/SEM-JS/events/256735821/). WebAssembly allows you to write front-end web code in languages other than JavaScript by creating a virtual machine that runs in the browser. It's really neat stuff and I'll be diving into the low-level details. And, I'll be live-coding in WebAssembly Text Format so be prepared for epic failure!
 

@@ -16,11 +16,14 @@ const page = Astro.params.page ? parseInt(Astro.params.page) : 1
 const start = (page - 1) * pageSize
 const end = page * pageSize
 
+/* generate page title */
+const pageTitle = page === 1 ? 'The Guy Wire' : `The Guy Wire - Page ${page}`
+
 /* get entries for the current page */
 const theseEntries = allEntries.reverse().slice(start, end)
 ---
 
-<Base title="The Guy Wire">
+<Base title={pageTitle}>
   {theseEntries.map(entry => <BlogPost slug={entry.slug} />)}
   <Pagination currentPage={page} pageCount={pageCount} />
 </Base>

@@ -1,6 +1,7 @@
 ---
 title: Renaissance Guy's House Rules
 date: 2021-07-08
+image: /images/dice-so-nice.jpg
 slug: house-rules
 ---
 

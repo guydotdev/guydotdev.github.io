@@ -1,15 +1,11 @@
 ---
+import RoundImage from './round-image.astro'
+
 const { imageUrl, imageAltText, title, url } = Astro.props
 ---
 
 <section class="flex flex-row items-start px-96 my-12">
-  <a href={url} class="flex-shrink-0">
-    <img
-      src={imageUrl}
-      alt={imageAltText}
-      class="rounded-full size-48 border-2 border-programer-peach transition-colors duration-300 ease-in-out bg-not-white"
-    />
-  </a>
+  <RoundImage imageUrl={imageUrl} altText={imageAltText} link={url} />
   <div class="px-8 pt-6 align-middle">
     <a href={url}>
       <h1

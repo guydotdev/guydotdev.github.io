@@ -1,6 +1,8 @@
 ---
 title: 'Machine Learning for Developers: Lies, Truth, and Business Logic'
 date: 2018-11-29
+image: /images/toy-robot.jpg
+altText: A blue toy robot
 slug: lies-truth-and-business-logic
 ---
 
