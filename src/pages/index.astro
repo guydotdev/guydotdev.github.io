@@ -1,6 +1,7 @@
 ---
 import Base from '../layouts/base.astro'
 import HomeSection from '../components/home-section.astro'
+import Link from '../components/link.astro'
 ---
 
 <Base title="Home">
@@ -11,59 +12,75 @@ import HomeSection from '../components/home-section.astro'
     url="/about"
   >
     <p class="text-lg">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac tortor
-      convallis, cursus mi et, tempus purus. Quisque vitae erat accumsan arcu
-      tristique finibus eu non sem. Curabitur a sapien dictum ligula malesuada
-      condimentum. Aliquam malesuada a dui vitae porttitor. Aliquam pharetra
-      feugiat nisi quis varius. Aliquam venenatis tincidunt nisl eget tincidunt.
+      Welcome. My name is Guy and, yes, that's my real name. I'm a husband and
+      father of three, a seasoned software developer, a public speaker, and a
+      hard-boiled geek interested in more things than I have time for. I share
+      many of those things right here on this website.
     </p>
   </HomeSection>
 
   <HomeSection
     title="The Guy Wire"
     imageUrl="/assets/the-guy-wire.jpg"
-    imageAltText="Guy Royse writing on a computer"
+    imageAltText="TBD"
     url="/blog"
   >
     <p class="text-lg">
-      Cras tellus urna, consectetur in fermentum a, tincidunt ac diam. Nullam
-      erat diam, vehicula quis ipsum sodales, euismod aliquet dui. Sed eu eros
-      in nibh varius lobortis. Morbi dolor nulla, malesuada eget laoreet sed,
-      ultricies eget purus. Mauris nec ultricies tellus. Praesent tempor urna
-      hendrerit dolor varius consequat. Curabitur egestas risus leo, id
-      ultricies est facilisis eget.
+      This is my blog. Mostly I write about software development and tech
+      topics, but sometimes I'll write about other nerdy topics like ham radio
+      and RPGs—think <em>Dungeons &amp; Dragons</em> not <em
+        >The Legend of Zelda</em
+      >. On rare occasions, I may wax poetic about life, the universe, and
+      everything.
+    </p>
+  </HomeSection>
+
+  <HomeSection
+    title="GuyDotDev"
+    imageUrl="/assets/guy-dot-dev.jpg"
+    imageAltText="Miniature construction worker and supervisor standing on a circuit board"
+    url="/gu-ydot-dev"
+  >
+    <p class="text-lg">
+      I'm a software developer with over 30 years of experience. I've worked in
+      numerous industries using a variety of languages and technologies.
+      Currently, I work for <Link url="https://redis.io">Redis</Link> as a developer
+      advocate. I share my work here, on <Link
+        url="https://github.com/guyroyse/">GitHub</Link
+      >, and on <Link url="https://www.youtube.com/@guyroyse">YouTube</Link
+      >—where I post regular videos.
     </p>
   </HomeSection>
 
   <HomeSection
     title="Renaissance Guy"
     imageUrl="/assets/renaissance-guy.jpg"
-    imageAltText="Fantasy version of Guy Royse"
+    imageAltText="Assorted gaming materials on a table including a dungeon map, dice, and a vintage gaming book"
     url="/renaissance-guy"
   >
     <p class="text-lg">
-      Praesent tempor urna hendrerit dolor varius consequat. Curabitur egestas
-      risus leo, id ultricies est facilisis eget. Cras tellus urna, consectetur
-      in fermentum a, tincidunt ac diam. Nullam erat diam, vehicula quis ipsum
-      sodales, euismod aliquet dui. Sed eu eros in nibh varius lobortis. Morbi
-      dolor nulla, malesuada eget laoreet sed, ultricies eget purus. Mauris nec
-      ultricies tellus.
+      I've been an avid gamer for decades, playing my first game of Dungeons
+      &amp; Dragons sometime in the early 80s. I enjoy all sorts of RPGs—not
+      just D&amp;D. Usually, I'm the gamemaster and I like making scenery to run
+      my games. I share my play materials here and post <Link
+        url="https://www.youtube.com/@renaissanceguy">videos</Link
+      > occasionally.
     </p>
   </HomeSection>
 
   <HomeSection
     title="W8GUY"
     imageUrl="/assets/w8guy.jpg"
-    imageAltText="Guy Royse on the radio"
+    imageAltText="Two nixie tubes displaying the numbers 7 and 3"
     url="/w8guy"
   >
     <p class="text-lg">
-      Sed eu eros in nibh varius lobortis. Morbi dolor nulla, malesuada eget
-      laoreet sed, ultricies eget purus. Mauris nec ultricies tellus. Praesent
-      tempor urna hendrerit dolor varius consequat. Curabitur egestas risus leo,
-      id ultricies est facilisis eget. Cras tellus urna, consectetur in
-      fermentum a, tincidunt ac diam. Nullam erat diam, vehicula quis ipsum
-      sodales, euismod aliquet dui.
+      I'm an amateur radio operator and who managed to snag the vanity call sign
+      of <Link url="https://www.qrz.com/db/W8GUY">W8GUY</Link>. Ham radio is a
+      fairly new hobby to me and I'm constantly learning and tweaking. There's
+      plenty to learn and tweak. I share what I've learned here and post the <Link
+        url="https://www.youtube.com/@w8guy-10">occasional video</Link
+      >.
     </p>
   </HomeSection>
 </Base>
