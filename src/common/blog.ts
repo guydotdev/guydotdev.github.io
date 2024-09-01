@@ -1,4 +1,4 @@
-import { getCollection } from 'astro:content'
+import { getCollection, getEntry } from 'astro:content'
 
 export const blogPageSize: number = 5
 
@@ -47,6 +47,20 @@ export async function generatePermalinkRoutes() {
   return routes
 }
 
-async function getAllBlogEntries() {
+export async function getPermalink(slug: string) {
+  const entry = await getBlogEntry(slug)
+  const dt = entry.data.date
+  const year = dt.getUTCFullYear().toString()
+  const month = (dt.getUTCMonth() + 1).toString().padStart(2, '0')
+  const day = dt.getUTCDate().toString().padStart(2, '0')
+
+  return `/${year}/${month}/${day}/${slug}`
+}
+
+export async function getAllBlogEntries() {
   return (await getCollection('blog')).reverse()
+}
+
+export async function getBlogEntry(slug: string) {
+  return await getEntry('blog', slug)
 }
