@@ -18,7 +18,7 @@ const listItems = []
 if (hasPrevPage) {
   listItems.push({
     text: '« Previous',
-    link: `/blog/${prevPage === 1 ? '' : prevPage}`,
+    link: prevPage === 1 ? '/blog' : `/blog/${prevPage}`,
     clazz: linkClass
   })
 }
@@ -33,7 +33,7 @@ for (let page = 1; page <= pageCount; page++) {
   } else {
     listItems.push({
       text: page,
-      link: `/blog/${page === 1 ? '' : page}`,
+      link: page === 1 ? '/blog' : `/blog/${page}`,
       clazz: linkClass
     })
   }
