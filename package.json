@@ -9,7 +9,7 @@
     "preview": "astro preview"
   },
   "author": "Guy Royse <guy@guyroyse.com>",
-  "license": "Copyright © 2024 Guy Royse.",
+  "license": "Copyright © 2009-2025 Guy Royse.",
   "private": true,
   "type": "module",
   "devDependencies": {
