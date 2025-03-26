@@ -10,9 +10,9 @@ time programming in the most popular of the semi-colon delimited
 languages including C++, Java, and JavaScript.
 
 I work for [Redis](https://redis.io/) as a Developer Advocate.
-Speaking and teaching are something I throughly enjoy—the best way I've found
-to monetize my narcicism—and will go to any conference that will have me
-and that my boss will pay for. I normally speak about technology with a Redis
+Speaking and teaching are something I thoroughly enjoy—the best way I've found
+to monetize my narcissism—and will go to any conference that will have me
+and that my boss will pay for. I usually speak about technology with a Redis
 angle but have been known to wander into other topics.
 
 In addition to programming computers, I studied electronics in high
@@ -34,6 +34,6 @@ and linguistics and an even less geeky interest in camping and bushcraft. I
 watch way too many YouTube videos on all of these topics.
 
 I live in Ohio with my wife and high school sweetheart—they're the same
-person, just to be clear. We have three adult sons—Eagle Scouts all of
+person, just to be clear. We have three adult sons—Eagle Scouts, all of
 them—who visit regularly and are big nerds each in their own way. I
 couldn't be prouder.
