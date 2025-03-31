@@ -4,7 +4,7 @@ import RoundImage from '../widgets/round-image.astro'
 const { imageUrl, imageAltText, title, url } = Astro.props
 ---
 
-<section class="flex flex-row items-start my-12">
+<section class="flex flex-row items-start pb-16">
   <RoundImage imageUrl={imageUrl} altText={imageAltText} link={url} />
   <div class="px-8 pt-6">
     <a href={url}>
