@@ -8,11 +8,11 @@
 @tailwind utilities;
 
 article > div > h1 {
-  @apply text-lg font-serif mb-3 text-royse-red-light;
+  @apply text-xl font-serif mt-6 mb-3 text-royse-red-light;
 }
 
 article p {
-  @apply mb-3 text-lg;
+  @apply my-4 text-lg;
 }
 
 article a {
@@ -32,7 +32,7 @@ article ol {
 }
 
 article pre {
-  @apply mb-3 p-2;
+  @apply ml-4 mr-24 my-4 p-4 overflow-x-auto;
 }
 
 article .youtube {
