@@ -1,6 +1,7 @@
 ---
 title: Finding Bigfoot with Async Generators + TypeScript
 date: 2025-04-01
+image: /images/bigfoot-flag.jpg
 slug: finding-bigfoot-with-async-generators-and-typescript
 ---
 
