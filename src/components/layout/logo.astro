@@ -1,9 +1,8 @@
 ---
-const { clazz } = Astro.props
-const flexClass = `${clazz} flex flex-row`
+
 ---
 
-<div class={flexClass}>
-  <img src="/assets/guy-head.png" alt="Guy Royse" class="mr-2 size-16" />
-  <h1 class="uppercase py-4 mr-2 bold font-serif">Guy Royse</h1>
+<div class="flex flex-col lg:flex-row flex-grow items-center justify-start">
+  <img src="/assets/guy-head.png" alt="Guy Royse" class="my-4 lg:my-0 lg:mx-2 size-24 lg:size-16" />
+  <h1 class="uppercase mx-2 bold font-serif">Guy Royse</h1>
 </div>

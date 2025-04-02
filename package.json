@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "dev": "astro dev --port 4321",
-    "start": "astro dev --port 4321",
+    "dev": "astro dev --port 4321 --host",
+    "start": "astro dev --port 4321 --host",
     "build": "astro build",
     "preview": "astro preview"
   },

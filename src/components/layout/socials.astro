@@ -3,14 +3,11 @@ import BlueskySocialIcon from '../widgets/bluesky-social-icon.astro'
 import GitHubSocialIcon from '../widgets/github-social-icon.astro'
 import XSocialIcon from '../widgets/x-social-icon.astro'
 import YoutubeSocialIcon from '../widgets/youtube-social-icon.astro'
-
-const { clazz } = Astro.props
-const flexClass = `${clazz} flex flex-row`
 ---
 
-<ul class={flexClass}>
-  <li class="ml-4"><GitHubSocialIcon /></li>
-  <li class="ml-4"><BlueskySocialIcon /></li>
-  <li class="ml-4"><YoutubeSocialIcon /></li>
-  <li class="ml-4"><XSocialIcon /></li>
+<ul class="flex flex-row flex-grow items-center justify-end">
+  <li class="mx-2"><GitHubSocialIcon /></li>
+  <li class="mx-2"><BlueskySocialIcon /></li>
+  <li class="mx-2"><YoutubeSocialIcon /></li>
+  <li class="mx-2"><XSocialIcon /></li>
 </ul>

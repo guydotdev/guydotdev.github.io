@@ -1,12 +1,9 @@
 ---
-const { clazz } = Astro.props
-const flexClass = `${clazz} flex flex-row`
-
 const listClass =
   'flex-shrink font-sans text-xl mx-4 hover:text-programer-peach transition-colors duration-300 ease-in-out'
 ---
 
-<ul class={flexClass}>
+<ul class="hidden xl:flex xl:flex-row flex-none items-center justify-center">
   <li class={listClass}><a href="/">Home</a></li>
   <li class={listClass}><a href="/about">About</a></li>
   <li class={listClass}><a href="/blog">The Guy Wire</a></li>
