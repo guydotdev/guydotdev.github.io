@@ -16,6 +16,10 @@ article p {
 }
 
 article a {
+  @apply text-royse-red-light hover:text-programer-peach transition-colors duration-300 ease-in-out;
+}
+
+article p a {
   @apply text-royse-red-light hover:underline hover:text-programer-peach transition-colors duration-300 ease-in-out;
 }
 
@@ -32,7 +36,7 @@ article ol {
 }
 
 article pre {
-  @apply ml-4 mr-24 my-4 p-4 overflow-x-auto;
+  @apply ml-4 mr-6 lg:mr-12 my-4 p-4 overflow-x-auto;
 }
 
 article .youtube {
