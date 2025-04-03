@@ -30,4 +30,4 @@ Sometimes I mash together RPGs and code. [Campaignify](http://guy.dev/campaignif
 - You are Robots living in a Zombie Apocalypse setting experiencing events similar to Mad Max.
 - You are Children living in an Underdark setting experiencing events similar to Aliens.
 
-The [code is out on GitHub](https://github.com/guyroyse/campaignify) if you want to update the data for the generator.
+The [code is out on GitHub](https://github.com/guydotdev/campaignify) if you want to update the data for the generator.
