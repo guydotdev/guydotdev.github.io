@@ -25,7 +25,7 @@ I’m also building a setting to go with it called The Eightfold Forge. It’s a
 
 # Gaming + Coding
 
-Sometimes I mash together RPGs and code. [Campaignify](http://guyroyse.com/campaignify/) is one of those mashings. It's a random campaign idea generator that is whimsical, occasionally nonsensical, but pretty useful when you’re looking for a bit of inspiration. My favorite ideas it's generated for me include:
+Sometimes I mash together RPGs and code. [Campaignify](http://guy.dev/campaignify/) is one of those mashings. It's a random campaign idea generator that is whimsical, occasionally nonsensical, but pretty useful when you’re looking for a bit of inspiration. My favorite ideas it's generated for me include:
 
 - You are Robots living in a Zombie Apocalypse setting experiencing events similar to Mad Max.
 - You are Children living in an Underdark setting experiencing events similar to Aliens.
