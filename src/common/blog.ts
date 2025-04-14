@@ -58,7 +58,7 @@ export async function getPermalink(slug: string) {
 }
 
 export async function getAllBlogEntries() {
-  return (await getCollection('blog')).reverse()
+  return (await getCollection('blog', entry => !entry.data.draft)).reverse()
 }
 
 export async function getBlogEntry(slug: string) {
