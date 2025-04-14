@@ -1,7 +1,7 @@
 ---
 title: Weather Watching with Redis Streams + Event Emitters
-date: 2025-04-08
-image: /images/bigfoot-flag.jpg
+date: 2025-04-22
+image: /images/event-emmiters.jpg
 slug: weather-watching-with-redis-stream-and-event-emitters
 draft: true
 ---

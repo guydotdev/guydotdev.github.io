@@ -1,8 +1,8 @@
 ---
-title: Vector Sets
-date: 2025-04-14
-image: /images/vector-sets.jpg
-slug: vector-sets
+title: A First Look at Vector Sets
+date: 2025-04-15
+image: /images/photomosaic.jpg
+slug: a-first-look-at-vector-sets
 draft: true
 ---
 
