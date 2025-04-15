@@ -5,7 +5,7 @@ image: /images/photomosaic.jpg
 slug: a-first-look-at-vector-sets
 ---
 
-Last week, [Redis announced vector sets](https://redis.io/blog/announcing-vector-sets-a-new-redis-data-type-for-vector-similarity/)—a new data structure coming in Redis 8. They also released [Redis 8 RC1](https://hub.docker.com/_/redis), which means we get to play with this new featuer right now. And that's exactly what we're going to do!
+Last week, [Redis announced vector sets](https://redis.io/blog/announcing-vector-sets-a-new-redis-data-type-for-vector-similarity/)—a new data structure coming in Redis 8. They also released [Redis 8 RC1](https://hub.docker.com/_/redis), which means we get to play with this new feature right now. And that's exactly what we're going to do!
 
 We’ll explore vector sets through a real-world example: a user’s photo album. I picked this example because it shows off where vector sets really shine. Why does it work so well? Stick around to the end to find out.
 
