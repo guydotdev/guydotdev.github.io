@@ -1,16 +1,36 @@
 ---
+import { SEO } from 'astro-seo'
+
 import '../styles/base.css'
 
 import Header from '../components/layout/header.astro'
 import Main from '../components/layout/main.astro'
 import Footer from '../components/layout/footer.astro'
 
-const { title } = Astro.props
+const { title, seoTitle, seoImage } = Astro.props
+
+const image = new URL(seoImage || '/images/assets/guy-royse.png', Astro.site).toString()
 ---
 
 <!doctype html>
 <html lang="en">
   <head>
+    <SEO
+      title={title}
+      openGraph={{
+        basic: {
+          title: seoTitle,
+          image: image,
+          type: 'website'
+        }
+      }}
+      twitter={{
+        title: seoTitle,
+        image: image,
+        creator: '@guyroyse'
+      }}
+    />
+
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 

@@ -2,20 +2,21 @@
 import Base from '../layouts/base.astro'
 import HomeSection from '../components/home/home-section.astro'
 import Link from '../components/widgets/link.astro'
+
+const title = 'Home'
+const image = new URL('/images/assets/guy-royse.png', Astro.site).toString()
 ---
 
-<Base title="Home">
+<Base title={title} seoTitle={title} seoImage={image}>
   <HomeSection
     title="Who is this Guy?"
     imageUrl="/assets/guy-royse.jpg"
     imageAltText="Profile picture of Guy Royse with a long white beard and long, white hair"
     url="/about"
   >
-    Welcome. My name is Guy and, yes, that's my real name. I'm a husband and
-    father of three, a seasoned software developer, a <Link
-      url="https://sessionize.com/guyroyse">public speaker</Link
-    >, and a hard-boiled geek interested in more things than I have time for. I
-    share many of those things right here on this website.
+    Welcome. My name is Guy and, yes, that's my real name. I'm a husband and father of three, a seasoned software
+    developer, a <Link url="https://sessionize.com/guyroyse">public speaker</Link>, and a hard-boiled geek interested in
+    more things than I have time for. I share many of those things right here on this website.
   </HomeSection>
 
   <HomeSection
@@ -24,12 +25,11 @@ import Link from '../components/widgets/link.astro'
     imageAltText="A bundle of cables with glowing flecks of light inside"
     url="/blog"
   >
-    This is my blog. Mostly I write about software development and tech topics,
-    but sometimes I'll write about other nerdy topics like <Link url="/w8guy"
-      >ham radio</Link
-    > and <Link url="/w8guy">RPGs</Link>—think <em>Dungeons &amp; Dragons</em> not
-    <em>The Legend of Zelda</em>. On rare occasions, I may wax poetic about
-    life, the universe, and everything.
+    This is my blog. Mostly I write about software development and tech topics, but sometimes I'll write about other
+    nerdy topics like <Link url="/w8guy">ham radio</Link> and <Link url="/w8guy">RPGs</Link>—think <em
+      >Dungeons &amp; Dragons</em
+    > not
+    <em>The Legend of Zelda</em>. On rare occasions, I may wax poetic about life, the universe, and everything.
   </HomeSection>
 
   <HomeSection
@@ -38,12 +38,9 @@ import Link from '../components/widgets/link.astro'
     imageAltText="Assorted gaming materials on a table including a dungeon map, dice, and a vintage gaming book"
     url="/renaissance-guy"
   >
-    I've been an avid gamer for decades, playing my first game of Dungeons &amp;
-    Dragons sometime in the early 80s. I enjoy all sorts of RPGs—not just
-    D&amp;D. Usually, I'm the gamemaster and I like making scenery to run my
-    games. I share my play materials here and post <Link
-      url="https://www.youtube.com/@renaissanceguy">videos</Link
-    > occasionally.
+    I've been an avid gamer for decades, playing my first game of Dungeons &amp; Dragons sometime in the early 80s. I
+    enjoy all sorts of RPGs—not just D&amp;D. Usually, I'm the gamemaster and I like making scenery to run my games. I
+    share my play materials here and post <Link url="https://www.youtube.com/@renaissanceguy">videos</Link> occasionally.
   </HomeSection>
 
   <HomeSection
@@ -52,11 +49,10 @@ import Link from '../components/widgets/link.astro'
     imageAltText="Two nixie tubes displaying the numbers 7 and 3"
     url="/w8guy"
   >
-    I'm an amateur radio operator who managed to snag the vanity call sign of <Link
-      url="https://www.qrz.com/db/W8GUY">W8GUY</Link
-    >. Ham radio is a fairly new hobby to me and I'm constantly learning and
-    tweaking. There's plenty to learn and tweak. I share what I've learned here
-    and post the occasional <Link url="https://www.youtube.com/@w8guy-radio"
+    I'm an amateur radio operator who managed to snag the vanity call sign of <Link url="https://www.qrz.com/db/W8GUY"
+      >W8GUY</Link
+    >. Ham radio is a fairly new hobby to me and I'm constantly learning and tweaking. There's plenty to learn and
+    tweak. I share what I've learned here and post the occasional <Link url="https://www.youtube.com/@w8guy-radio"
       >video</Link
     >.
   </HomeSection>

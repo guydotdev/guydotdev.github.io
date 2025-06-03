@@ -1,8 +1,11 @@
 ---
 import Base from '../../layouts/base.astro'
 import Page from '../../components/page/page.astro'
+
+const title = 'Who is this Guy?'
+const image = new URL('/images/assets/guy-royse.png', Astro.site).toString()
 ---
 
-<Base title="Who is ths Guy?">
+<Base title={title} seoTitle={title} seoImage={image}>
   <Page page="about" />
 </Base>

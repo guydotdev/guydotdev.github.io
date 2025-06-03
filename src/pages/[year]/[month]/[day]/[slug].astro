@@ -11,6 +11,6 @@ export async function getStaticPaths() {
 const { entry } = Astro.props
 ---
 
-<Base title={`The Guy Wire - ${entry.data.title}`}>
+<Base title={`The Guy Wire - ${entry.data.title}`} seoTitle={entry.data.title} seoImage={entry.data.image}>
   <BlogPost slug={entry.slug} />
 </Base>
