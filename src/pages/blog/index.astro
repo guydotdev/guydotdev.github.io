@@ -4,7 +4,7 @@ import BlogPage from '../../components/blog/blog-page.astro'
 
 const page = Astro.params.page ? parseInt(Astro.params.page) : 1
 const pageTitle = page === 1 ? 'The Guy Wire' : `The Guy Wire - Page ${page}`
-const image = new URL('/images/assets/the-guy-wire.jpg', Astro.site).toString()
+const image = new URL('/assets/the-guy-wire.jpg', Astro.site).toString()
 ---
 
 <Base title={pageTitle} seoTitle={pageTitle} seoImage={image}>
